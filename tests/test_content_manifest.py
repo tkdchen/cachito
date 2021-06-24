@@ -4,7 +4,7 @@ from unittest import mock
 
 import pytest
 
-from cachito.errors import ContentManifestError
+from cachito.common.errors import ContentManifestError
 from cachito.web import content_manifest
 from cachito.web.models import Package, Request, RequestPackage
 

@@ -5,7 +5,7 @@ from unittest import mock
 import requests
 import pytest
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers import nexus
 from cachito.workers.errors import NexusScriptError
 

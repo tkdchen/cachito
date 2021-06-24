@@ -5,7 +5,7 @@ from unittest import mock
 import pytest
 import requests
 
-from cachito.errors import ValidationError, CachitoError
+from cachito.common.errors import ValidationError, CachitoError
 from cachito.workers.requests import requests_session, requests_auth_session
 from cachito.workers.tasks import utils
 

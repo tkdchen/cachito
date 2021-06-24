@@ -6,7 +6,7 @@ import re
 import subprocess
 from typing import Iterator
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.config import get_worker_config
 
 log = logging.getLogger(__name__)

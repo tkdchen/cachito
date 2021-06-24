@@ -19,7 +19,7 @@ import pkg_resources
 import requests
 from packaging.utils import canonicalize_name, canonicalize_version
 
-from cachito.errors import CachitoError, ValidationError
+from cachito.common.errors import CachitoError, ValidationError
 from cachito.workers import nexus
 from cachito.workers.config import get_worker_config
 from cachito.workers.errors import NexusScriptError

@@ -8,8 +8,8 @@ from typing import List
 
 import requests
 
-from cachito.errors import CachitoError, ValidationError
-from cachito.utils import PackagesData
+from cachito.common.errors import CachitoError, ValidationError
+from cachito.common.packages_data import PackagesData
 from cachito.workers.scm import Git
 from cachito.workers.paths import RequestBundleDir
 from cachito.workers.tasks.celery import app

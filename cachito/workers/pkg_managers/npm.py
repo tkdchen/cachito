@@ -4,7 +4,7 @@ import json
 import logging
 import os
 
-from cachito.errors import CachitoError, ValidationError
+from cachito.common.errors import CachitoError, ValidationError
 from cachito.workers.config import get_worker_config
 from cachito.workers.pkg_managers.general_js import (
     download_dependencies,

@@ -7,7 +7,7 @@ from typing import Union, Callable
 
 import requests
 
-from cachito.errors import ValidationError, CachitoError
+from cachito.common.errors import ValidationError, CachitoError
 from cachito.workers.celery_logging import get_function_arg_value
 from cachito.workers.config import get_worker_config
 

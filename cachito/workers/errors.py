@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 
 
 class NexusScriptError(CachitoError):

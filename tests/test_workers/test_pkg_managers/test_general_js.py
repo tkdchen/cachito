@@ -8,7 +8,7 @@ from unittest import mock
 
 import pytest
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers import nexus
 from cachito.workers.errors import NexusScriptError
 from cachito.workers.pkg_managers import general, general_js, npm

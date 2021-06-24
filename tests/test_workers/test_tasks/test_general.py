@@ -10,7 +10,7 @@ from unittest import mock
 import pytest
 from requests import Timeout
 
-from cachito.errors import CachitoError, ValidationError
+from cachito.common.errors import CachitoError, ValidationError
 from cachito.workers import tasks
 from cachito.workers.paths import RequestBundleDir, SourcesDir
 from cachito.workers.tasks.general import _enforce_sandbox

@@ -5,7 +5,7 @@ import logging
 
 import kombu
 
-from cachito.errors import ConfigError
+from cachito.common.errors import ConfigError
 
 
 ARCHIVES_VOLUME = os.path.join(tempfile.gettempdir(), "cachito-archives")

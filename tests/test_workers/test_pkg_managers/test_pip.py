@@ -10,7 +10,7 @@ from xml.etree import ElementTree
 import pytest
 import requests
 
-from cachito.errors import CachitoError, ValidationError
+from cachito.common.errors import CachitoError, ValidationError
 from cachito.workers.errors import NexusScriptError
 from cachito.workers.pkg_managers import pip, general
 from cachito.workers.requests import requests_session

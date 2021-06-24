@@ -6,7 +6,7 @@ import requests
 
 from cachito.workers.requests import get_requests_session
 from cachito.workers.config import get_worker_config
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 
 log = logging.getLogger(__name__)
 

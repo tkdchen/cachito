@@ -24,7 +24,7 @@ from cachito.workers.pkg_managers.gomod import (
     _set_full_local_dep_relpaths,
     _get_allowed_local_deps,
 )
-from cachito.errors import CachitoError, ValidationError
+from cachito.common.errors import CachitoError, ValidationError
 from cachito.workers.paths import RequestBundleDir
 from tests.helper_utils import assert_directories_equal, write_file_tree
 

@@ -6,7 +6,7 @@ import os
 
 import requests
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.config import get_worker_config
 
 __all__ = [

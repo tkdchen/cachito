@@ -6,7 +6,7 @@ from unittest import mock
 
 import pytest
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.config import get_worker_config
 from cachito.workers.paths import RequestBundleDir
 from cachito.workers.tasks import pip

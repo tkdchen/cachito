@@ -14,7 +14,7 @@ from typing import Tuple, List, Iterable, Optional, Dict
 import git
 import semver
 
-from cachito.errors import CachitoError, ValidationError
+from cachito.common.errors import CachitoError, ValidationError
 from cachito.workers.config import get_worker_config
 from cachito.workers.paths import RequestBundleDir
 from cachito.workers import run_cmd, load_json_stream

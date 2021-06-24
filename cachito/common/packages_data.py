@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 from typing import Any, Dict, Iterator, List, Tuple, Union
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 
 log = logging.getLogger(__name__)
 

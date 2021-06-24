@@ -5,7 +5,7 @@ import os
 
 from celery.utils.log import ColorFormatter
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.config import get_worker_config
 
 

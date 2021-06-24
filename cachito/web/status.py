@@ -6,7 +6,7 @@ import kombu
 import requests
 import sqlalchemy.exc
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.web import db
 from cachito.workers.config import get_worker_config
 from cachito.workers.tasks.celery import app

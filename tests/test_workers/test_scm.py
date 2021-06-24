@@ -12,7 +12,7 @@ import git
 import pytest
 
 from cachito.workers import scm
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 
 url = "https://github.com/release-engineering/retrodep.git"
 ref = "c50b93a32df1c9d700e3e80996845bc2e13be848"

@@ -8,7 +8,7 @@ from typing import Dict, Optional
 import pyarn.lockfile
 from urllib.parse import urlparse
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.pkg_managers.general_js import (
     convert_hex_sha_to_npm,
     download_dependencies,

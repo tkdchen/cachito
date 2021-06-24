@@ -4,7 +4,7 @@ from unittest import mock
 import requests
 import pytest
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.pkg_managers.general import (
     download_binary_file,
     update_request_with_config_files,

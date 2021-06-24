@@ -14,7 +14,7 @@ from cachito.workers.config import (
     validate_pip_config,
     validate_yarn_config,
 )
-from cachito.errors import ConfigError
+from cachito.common.errors import ConfigError
 
 
 @patch("os.path.isfile", return_value=False)

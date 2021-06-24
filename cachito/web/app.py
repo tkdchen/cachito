@@ -16,7 +16,7 @@ from cachito.web.docs import docs
 from cachito.web.api_v1 import api_v1
 from cachito.web import db
 from cachito.web.errors import json_error
-from cachito.errors import CachitoError, ContentManifestError, ValidationError
+from cachito.common.errors import CachitoError, ContentManifestError, ValidationError
 
 
 def healthcheck():

@@ -10,7 +10,7 @@ import zlib
 
 import git
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers import run_cmd
 from cachito.workers.paths import SourcesDir
 

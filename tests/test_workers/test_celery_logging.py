@@ -5,7 +5,7 @@ from unittest import mock
 from celery.utils.log import ColorFormatter
 import pytest
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers import celery_logging
 
 

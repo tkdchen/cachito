@@ -6,7 +6,7 @@ import time
 
 import requests.auth
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.config import get_worker_config
 from cachito.workers.errors import NexusScriptError
 

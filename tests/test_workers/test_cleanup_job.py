@@ -4,7 +4,7 @@ from unittest import mock
 import pytest
 import requests
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.workers.cleanup_job import main
 
 

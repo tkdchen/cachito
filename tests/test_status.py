@@ -6,7 +6,7 @@ import pytest
 import sqlalchemy.exc
 from requests import RequestException
 
-from cachito.errors import CachitoError
+from cachito.common.errors import CachitoError
 from cachito.web import status
 
 TEST_PACKAGE_MANAGERS = ["gomod", "npm", "pip", "git-submodule", "yarn"]

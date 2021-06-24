@@ -2,7 +2,7 @@
 from flask import jsonify
 from werkzeug.exceptions import HTTPException
 
-from cachito.errors import (
+from cachito.common.errors import (
     CachitoError,
     ContentManifestError,
     ValidationError,
